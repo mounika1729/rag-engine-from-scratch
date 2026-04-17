@@ -1,4 +1,4 @@
-# 🔍 RAG From Scratch
+# RAG From Scratch
 
 A **production-grade Retrieval-Augmented Generation (RAG) system built entirely from scratch** — no LangChain, no LlamaIndex. Every component is hand-rolled so you understand exactly what's happening under the hood.
 
@@ -6,7 +6,7 @@ Built as a portfolio project for AI Engineers who want to demonstrate deep under
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
                           ┌─────────────────────────────────────────┐
@@ -47,7 +47,7 @@ Built as a portfolio project for AI Engineers who want to demonstrate deep under
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 rag_from_scratch/
@@ -103,7 +103,7 @@ rag_from_scratch/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone & Install
 
@@ -153,7 +153,7 @@ python main.py serve
 
 ---
 
-## 🛠️ Key Components Explained
+## Key Components Explained
 
 ### Chunking Strategies
 
@@ -206,7 +206,7 @@ LLM_MODEL=llama3.2
 
 ---
 
-## 🌐 REST API
+## REST API
 
 Start the server:
 ```bash
@@ -238,7 +238,7 @@ curl -X POST "http://localhost:8000/query" \
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 Run built-in evaluation metrics:
 
@@ -258,7 +258,7 @@ Metrics computed (from scratch, no RAGAS dependency):
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 pytest tests/ -v --cov=src --cov-report=term-missing
@@ -266,7 +266,7 @@ pytest tests/ -v --cov=src --cov-report=term-missing
 
 ---
 
-## 🔧 Advanced Configuration
+## Advanced Configuration
 
 All settings are in `.env`. Key options:
 
@@ -292,7 +292,7 @@ VECTOR_STORE_TYPE=faiss         # faiss | chroma
 
 ---
 
-## 💡 Using as a Python Library
+## Using as a Python Library
 
 ```python
 from src.pipeline import RAGPipeline
@@ -321,7 +321,7 @@ pipeline = RAGPipeline.build(load_existing=True)
 
 ---
 
-## 🗺️ Roadmap / Extension Ideas
+## Roadmap / Extension Ideas
 
 - [ ] Multi-modal RAG (images + text)
 - [ ] Streaming API responses
@@ -336,7 +336,7 @@ pipeline = RAGPipeline.build(load_existing=True)
 
 ---
 
-## 🧠 What This Project Demonstrates
+## What This Project Demonstrates
 
 This project is deliberately built **without any RAG framework** to show:
 
@@ -348,6 +348,6 @@ This project is deliberately built **without any RAG framework** to show:
 
 ---
 
-## 📄 License
+## License
 
 MIT — use freely for personal and commercial projects.
