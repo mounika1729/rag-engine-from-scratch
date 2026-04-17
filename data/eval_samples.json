@@ -1,0 +1,12 @@
+[
+  {
+    "question": "What is retrieval-augmented generation?",
+    "expected_answer": "RAG combines a retrieval system with a language model to generate answers grounded in retrieved documents.",
+    "relevant_doc_ids": []
+  },
+  {
+    "question": "What are the main components of a RAG pipeline?",
+    "expected_answer": "A RAG pipeline consists of a document loader, chunker, embedding model, vector store, retriever, and LLM generator.",
+    "relevant_doc_ids": []
+  }
+]

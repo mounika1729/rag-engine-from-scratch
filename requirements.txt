@@ -1,0 +1,35 @@
+# Core
+fastapi
+uvicorn
+pydantic
+python-dotenv
+
+# LLM & Embeddings
+groq
+sentence-transformers
+transformers
+torch
+
+# Vector Stores
+faiss-cpu
+chromadb
+
+# Retrieval
+rank-bm25
+scikit-learn
+numpy
+pandas
+
+# Loaders / Parsing
+pypdf
+python-docx
+beautifulsoup4
+requests
+lxml
+
+# Utils
+tqdm
+
+# Testing
+pytest
+pytest-cov
